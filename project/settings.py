@@ -16,7 +16,7 @@ DATABASES = {
 
 INSTALLED_APPS = ['datacenter']
 
-SECRET_KEY = 'REPLACE_ME'
+SECRET_KEY = os.environ['SITE_SECRET_KEY']
 
 DEBUG = os.environ['DEBUG']
 
