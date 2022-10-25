@@ -25,9 +25,9 @@ DB_PORT={port #}
 DB_NAME={database name}
 DB_USER={username}
 DB_PASSWORD={your password}
-SITE_SECRET_KEY={your site secret key}
 DEBUG=FALSE
 ```
+Here inside '.env' you can turn on/off DEBUG feature of the site. 
 
 ## How to run Watch_Tower
 ```bash
